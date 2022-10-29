@@ -23,7 +23,6 @@ class BankAccout {
 
 class InsufficientFunds : Exception()
 
-
 fun main(args: Array<String>) {
     val account = BankAccout()
     println(account.balance) // 0.0

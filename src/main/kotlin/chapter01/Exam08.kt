@@ -26,8 +26,15 @@ fun main(args: Array<String>) {
     }
 
     print(primes.take(10).toList())
+    `안녕하세요`();
+
+    val isTest = true
+    require(isTest)
 }
 
+fun `안녕하세요`() {
+    println("안녕")
+}
 
 
 
