@@ -1,5 +1,18 @@
 package chapter02
 
+fun main(args: Array<String>) {
+
+    val count = 20000
+
+    for (i in 0 until count) {
+        Thread {
+            println("${Thread.currentThread()}: it's running. idx = $i")
+        }.start()
+    }
+
+}
+
+
 /**
  * 컴포지션 사용 예
  */
